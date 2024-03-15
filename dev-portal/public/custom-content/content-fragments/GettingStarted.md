@@ -4,18 +4,46 @@ title: Getting Started
 
 ## Getting Started
 
-### Create an account and subscribe to APIs
+### How to create an account?
 
-To use any of our APIs you must create a developer account. A developer account provides an API Key for accessing our APIs, a playground for testing our APIs, and API usage metrics. Create or sign in using the buttons in the top right.
+#### 1. Click the Register button on the top right corner of the page
 
-After you create a new account, you will have a new API Key but it won't be linked to any of our APIs. To activate it for a particular API, navigate to [APIs](/apis) and find the API you want. Click `subscribe`. Your API Key is now subscribed to the API and you can make calls to its methods.
+![Register Button](/custom-content/content-fragments/images/register.png)
 
-Depending on the API configuration, subscribing to one API may subscribe you to several APIs. These APIs may have related functionality or share a pricing plan. Requests against any of them will be counted together in your usage.
+#### 2. Enter the email address and password and click Sign up button to create an account. You will receive an email with verification code. 
 
-We know that figuring out how to use APIs can be hard. Use the “Try it out!” feature to get examples of the request and response shapes of our APIs. This makes an API call to the backend service using your API Key and provides a sample `curl` request with all necessary input parameters and the real response.
+![Sign up details](/custom-content/content-fragments/images/sign_up.png)
 
-If you need your API Key for any reason, you can always find it on [your dashboard](/dashboard) after logging in.
+#### 3. Get the Verification code from the email
 
-### Monitor your usage
+![Verification code email](/custom-content/content-fragments/images/verification_code_email.png)
 
-Typically each API has a usage limit set for each API Key. As you scale up your usage of the APIs, you can monitor your usage towards the limits on [your dashboard](/dashboard).
+#### 4. Enter verification code received in the email and click Confirm account button. 
+
+![Enter](/custom-content/content-fragments/images/verification_code.png)
+
+#### 5. You will be successfully logged in to the API Dev Portal
+
+![successful sign in](/custom-content/content-fragments/images/sign_in.png)
+
+### How to find my API key?
+
+#### 1. Click on the [My Dashboard](/dashboard) link on the top menu bar
+![api key](/custom-content/content-fragments/images/api_key.png)
+
+### How to subscribe to APIs?
+
+#### 1. Click on the APIs menu on the top menu bar
+![APIs Menu](/custom-content/content-fragments/images/api.png)
+
+#### 2. Pick the API you are interested in the side bar
+![Choose API](/custom-content/content-fragments/images/choose_api.png)
+
+#### 3. Click on the subscribe button for that API
+![Subscribe](/custom-content/content-fragments/images/subscribe.png)
+
+### How to check the API usage quotas & usage?
+
+#### 1. Typically each API has a usage limit set for each API Key. 
+As you scale up your usage of the APIs, you can monitor your usage
+towards the limits on [My Dashboard](/dashboard) page.
