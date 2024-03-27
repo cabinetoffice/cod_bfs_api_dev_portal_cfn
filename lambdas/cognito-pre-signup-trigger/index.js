@@ -21,7 +21,7 @@
 // This is the same regexp as is used in dev-portal/src/pages/Admin/Accounts/PendingInvites.jsx.
 exports.handler = async event => {
   const userEmailDomain = event.request.userAttributes.email.split("@")[1];
-  const allowedDomains = ["digital.cabinet-office.gov.uk","cabinet-office.gov.uk"];
+  const allowedDomains = ["digital.cabinet-office.gov.uk","cabinetoffice.gov.uk"];
   if (!allowedDomains.includes(userEmailDomain)) {
       throw new Error("Invalid email domain");
   }
